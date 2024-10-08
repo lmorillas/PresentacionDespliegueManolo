@@ -1,5 +1,5 @@
-@import "theme-relearn-light.css?1728363559";
-@import "chroma-relearn-light.css?1728363559";
+@import "theme-relearn-light.css?1728363788";
+@import "chroma-relearn-light.css?1728363788";
 
 #R-sidebar {
     display: none;
@@ -93,7 +93,7 @@ hr{
     margin-top: 2rem;
 }
 
-/* Children shortcodes */
+/* Children shortcode */
 .children p,
 .children-li p,
 .children-h2 p,

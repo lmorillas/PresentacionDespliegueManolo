@@ -586,7 +586,7 @@ function initAnchorClipboard(){
 
 function initCodeClipboard(){
     function getCodeText( node ){
-        // if highlight shortcodes is used in inline lineno mode, remove lineno nodes before generating text, otherwise it doesn't hurt
+        // if highlight shortcode is used in inline lineno mode, remove lineno nodes before generating text, otherwise it doesn't hurt
         var code = node.cloneNode( true );
         Array.from( code.querySelectorAll( '*:scope > span > span:first-child:not(:last-child)' ) ).forEach( function( lineno ){
             lineno.remove();
@@ -621,7 +621,7 @@ function initCodeClipboard(){
         var inTable = inPre &&
             code.parentNode.parentNode.tagName.toLowerCase() == 'td' &&
             code.parentNode.parentNode.classList.contains('lntd');
-        // avoid copy-to-clipboard for highlight shortcodes in table lineno mode
+        // avoid copy-to-clipboard for highlight shortcode in table lineno mode
         var isFirstLineCell = inTable &&
             code.parentNode.parentNode.parentNode.querySelector( 'td:first-child > pre > code' ) == code;
 

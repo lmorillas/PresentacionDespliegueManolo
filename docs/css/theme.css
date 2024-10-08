@@ -769,7 +769,7 @@ p:empty {
     margin-bottom: 0;
 }
 
-/* resources shortcodes */
+/* resources shortcode */
 
 div.attachments .box-content {
     display: block;
@@ -777,7 +777,7 @@ div.attachments .box-content {
     padding-inline-start: 1.75rem;
 }
 
-/* Children shortcodes */
+/* Children shortcode */
 
 .children p {
     font-size: .8125rem;
@@ -882,7 +882,7 @@ pre:not(.mermaid) code {
 div.highlight{
     position: relative;
 }
-/* we may have special treatment if highlight shortcodes was used in table lineno mode */
+/* we may have special treatment if highlight shortcode was used in table lineno mode */
 div.highlight > div{
     border-style: solid;
     border-width: 1px;
@@ -907,11 +907,11 @@ div.highlight > div td:first-child:not(:last-child){
     -webkit-user-select: none;
     user-select: none;
 }
-/* increase code column to full width if highlight shortcodes was used in table lineno mode  */
+/* increase code column to full width if highlight shortcode was used in table lineno mode  */
 div.highlight > div td:not(:first-child):last-child{
     width: 100%;
 }
-/* add scrollbars if highlight shortcodes was used in table lineno mode */
+/* add scrollbars if highlight shortcode was used in table lineno mode */
 div.highlight > div table{
     display: block;
     overflow: auto;
@@ -925,7 +925,7 @@ div.highlight:not(.wrap-code) pre:not(.mermaid) code{
 div.highlight.wrap-code pre:not(.mermaid) code{
     white-space: pre-wrap;
 }
-/* remove border from row cells if highlight shortcodes was used in table lineno mode */
+/* remove border from row cells if highlight shortcode was used in table lineno mode */
 div.highlight > div td > pre:not(.mermaid) {
     border-radius: 0;
     border-width: 0;
