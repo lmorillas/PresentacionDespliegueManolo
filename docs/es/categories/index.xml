@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categorías :: Despliegue de aplicaciones web</title>
-    <link>https://MAlejandroR.github.io/despliegue/docs/es/categories/index.html</link>
+    <link>https://mAlejandror.github.io/despliegue/docs/es/categories/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="https://MAlejandroR.github.io/despliegue/docs/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mAlejandror.github.io/despliegue/docs/es/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
